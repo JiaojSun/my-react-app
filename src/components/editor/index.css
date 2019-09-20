@@ -1,0 +1,21 @@
+/*=============================================================================
+#
+# Copyright (C) 2018 All rights reserved.
+#
+# Author:	Larry Wang
+#
+# Created:	2018-01-25 16:39
+#
+# Description:	
+#
+=============================================================================*/
+
+.xcontent-editor {
+    height: 100%;
+    padding-bottom: 48px;
+}
+
+.xcontent-editor .xcontent-editor-codemirror,
+.xcontent-editor .xcontent-editor-codemirror .CodeMirror {
+    height: 100%;
+}

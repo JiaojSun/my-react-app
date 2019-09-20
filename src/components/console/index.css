@@ -1,0 +1,23 @@
+/*=============================================================================
+#
+# Copyright (C) 2018 All rights reserved.
+#
+# Author:	Larry Wang
+#
+# Created:	2018-01-26 14:42
+#
+# Description:	
+#
+=============================================================================*/
+
+.xcontent-console > code {
+    display: block;
+    height: 100%;
+    overflow: auto;
+    padding: 6px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 14px;
+    white-space: pre-wrap;
+    background: #e0e0e0;
+}

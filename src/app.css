@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.xcontent-root {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.xcontent-root .xcontent-catalog-sider {
+    box-shadow: 0 0 20px #333;
+}
+.xcontent-root .xcontent-catalog-sider .ant-layout-sider-zero-width-trigger {
+    top: auto;
+    bottom: 4px;
+}
+
+.xcontent-root .xcontent-editor-sider {
+    box-shadow: 0 0 20px #333;
+    background: white;
+}
+
+.xcontent-root .xcontent-content {
+    display: flex;
+    background: red;
+}
+.xcontent-root .xcontent-content > .ant-layout:last-child {
+    flex: 0 0 300px;
+}
+.xcontent-root .xcontent-content .xcontent-view3d {
+    flex: 4 4 0;
+}
+.xcontent-root .xcontent-content .xcontent-view2d {
+    flex: 2 2 0;
+}
+.xcontent-root .xcontent-content .xcontent-popup {
+    flex: auto;
+}
+.xcontent-root .xcontent-content .xcontent-console {
+    flex: 0 0 120px;
+}

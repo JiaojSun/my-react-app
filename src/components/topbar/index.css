@@ -1,0 +1,26 @@
+/*=============================================================================
+#
+# Copyright (C) 2018 All rights reserved.
+#
+# Author:	Larry Wang
+#
+# Created:	2018-01-25 15:09
+#
+# Description:	
+#
+=============================================================================*/
+
+.xcontent-topbar {
+    display: flex;
+    height: 100%;
+}
+.xcontent-topbar .xcontent-topbar-content {
+    flex: auto;
+}
+.xcontent-topbar .xcontent-topbar-right {
+    flex-basis: 160px;
+}
+.xcontent-topbar .xcontent-topbar-right > * {
+    vertical-align: middle;
+    margin-left: 10px;
+}
